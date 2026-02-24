@@ -39,7 +39,8 @@ variable.
 
 ● Report the performance metrics (e.g., Mean Squared Error, R2 Score).
 
-11. Improving the Model 
+11. Improving the Model
+    
 ● Experiment with different architectures, activation functions, or
 hyperparameters to improve the model performance.
 
