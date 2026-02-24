@@ -1,0 +1,44 @@
+## Objective:
+
+To model the progression of diabetes using the available independent variables. This model will help healthcare professionals understand how different factors influence the progression of diabetes and potentially aid in designing better treatment plans and preventive measures. The model will provide insights into the dynamics of diabetes progression in patients.
+
+## Key steps includes :
+1. Loading and Preprocessing (4 marks)
+● Load the Diabetes dataset from sklearn.
+● Handle any missing values if present.
+● Normalize the features to ensure better performance of the ANN model.
+2. Exploratory Data Analysis (EDA) (4 marks)
+● Perform EDA to understand the distribution of features and the target
+variable.
+● Visualize the relationships between features and the target variable.
+3. Building the ANN Model (4 marks)
+● Design a simple ANN architecture with at least one hidden layer.
+● Use appropriate activation functions .
+4. Training the ANN Model (4 marks)
+● Split the dataset into training and testing sets.
+● Train the model on the training data.
+● Use an appropriate loss function and optimizer.
+5. Evaluating the Model (3 marks)
+● Evaluate the model on the testing data.
+● Report the performance metrics (e.g., Mean Squared Error, R2 Score).
+6. Improving the Model (5 marks)
+○ Experiment with different architectures, activation functions, or
+hyperparameters to improve the model performance.
+
+### Conclusion
+
+This project demonstrates how Artificial Neural Networks can model medical progression data. Although ANN captured nonlinear relationships, performance is influenced by dataset size. Simpler architectures with proper tuning provided better results than overly complex models.
+
+### Tools & Technologies Used
+
+- Python 3.x
+
+- NumPy
+
+- Pandas 
+
+- Matplotlib 
+
+- Scikit-learn 
+
+- TensorFlow / Keras 
